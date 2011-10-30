@@ -4,3 +4,6 @@ D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\obj\De
 D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\obj\Debug\Cecropia.dll
 D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\obj\Debug\Cecropia.pdb
 D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\bin\Mono.Security.dll
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\bin\Ext.Net.xml
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\bin\Ext.Net.Utilities.xml
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\bin\Newtonsoft.Json.xml

@@ -1,0 +1,25 @@
+﻿.custom
+{
+    background-color: gray;
+    border: solid 5px gray;
+}
+.custom .x-grouptabs-corner
+{
+    background-image: none;
+}
+
+.custom ul.x-grouptabs-strip li.x-grouptabs-strip-active
+{
+    background: #DBDBDB;
+    border: none !important;
+}
+
+.custom ul.x-grouptabs-strip li.x-grouptabs-main
+{
+    border: solid 1px white;
+}
+
+.custom li.x-grouptabs-strip-active ul.x-grouptabs-sub li.x-grouptabs-strip-active
+{
+    background-color: white;
+}
