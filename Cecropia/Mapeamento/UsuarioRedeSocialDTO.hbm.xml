@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Cecropia.DTO" assembly="Cecropia">
+
+  <class name="UsuarioRedeSocialDTO" table="tb03_usuario_rede_social">
+
+    <id name="Codigo" type="int">
+      <column name="codigo" sql-type="Integer" not-null="true"/>
+      <generator class="sequence">
+        <param name="sequence">tb03_usuario_rede_social_codigo_seq</param>
+      </generator>
+    </id>
+
+    <property name="AccessToken" column="access_token" length="55" not-null="true"/>
+    <property name="AccessTokenSecret" column="access_token_secret" length="45" not-null="true"/>
+
+    <many-to-one name="Usuario" column="codigo_usuario" class="UsuarioDTO" not-null="false"/>
+    <many-to-one name="RedeSocial" column="codigo_rede_social" class="RedeSocialDTO" not-null="false"/>
+    
+  </class>
+
+</hibernate-mapping>

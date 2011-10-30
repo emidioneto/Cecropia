@@ -1,0 +1,6 @@
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\bin\Cecropia.dll
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\bin\Cecropia.pdb
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\obj\Debug\ResolveAssemblyReference.cache
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\obj\Debug\Cecropia.dll
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\obj\Debug\Cecropia.pdb
+D:\Unijorge\4º Semestre\Projeto Integrador\Aplicação\Cecropia\Cecropia\bin\Mono.Security.dll

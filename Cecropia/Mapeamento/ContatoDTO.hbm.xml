@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2" namespace="Cecropia.DTO" assembly="Cecropia">
+
+  <class name="ContatoDTO" table="tb05_contato">
+
+    <id name="Codigo" type="int">
+      <column name="codigo" sql-type="Integer" not-null="true"/>
+      <generator class="sequence">
+        <param name="sequence">tb05_contato_codigo_seq</param>
+      </generator>
+    </id>
+
+    <property name="Id" column="id" not-null="true"/>
+    
+    <property name="Nome" column="nome" length="30" not-null="true"/>
+    
+    <property name="NomeFoto" column="nome_foto" length="20" not-null="true"/>
+
+    <bag name="Categorias" table="tb06_categoria_contato" cascade="save-update">
+      <key column="codigo_contato"/>
+      <many-to-many class="CategoriaDTO" column="codigo_categoria" not-found="ignore"/>
+    </bag>
+
+    <many-to-one name="UsuarioRedeSocial" column="codigo_usuario_rede_social" class="UsuarioRedeSocialDTO" not-null="false"/>
+
+  </class>
+
+</hibernate-mapping>
